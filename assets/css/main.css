@@ -40,7 +40,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f4fafd;
+  --background-color: #cdcfff;
   --surface-color: #ffffff;
 }
 
@@ -67,13 +67,13 @@ body {
 }
 
 a {
-  color: var(--accent-color);
+  color: #ff9d47;
   text-decoration: none;
   transition: 0.3s;
 }
 
 a:hover {
-  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  color: color-mix(in srgb, red, transparent 25%);
   text-decoration: none;
 }
 
@@ -144,7 +144,7 @@ h6 {
 --------------------------------------------------------------*/
 .header {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #1a0933;
   position: fixed;
   top: 0;
   left: 0;
@@ -200,6 +200,7 @@ h6 {
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
+ text-decoration: underline;
 }
 
 .header .social-links {
@@ -223,7 +224,7 @@ h6 {
 
 .header .social-links a:hover {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: rgb(128, 145, 240);
 }
 
 @media (min-width: 1200px) {
@@ -246,7 +247,7 @@ h6 {
 
 .header .header-toggle {
   color: var(--contrast-color);
-  background-color: var(--accent-color);
+  background-color: #dd1414;
   font-size: 22px;
   display: flex;
   align-items: center;
@@ -264,7 +265,7 @@ h6 {
 
 .header .header-toggle:hover {
   color: var(--contrast-color);
-  background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
+  background-color: color-mix(in srgb, #2114dd 90%, white 15%);
 }
 
 /*--------------------------------------------------------------
@@ -336,7 +337,7 @@ h6 {
 .navmenu a:hover .navicon,
 .navmenu .active .navicon,
 .navmenu .active:focus .navicon {
-  color: var(--accent-color);
+  color: #dda114;
 }
 
 .navmenu .active .toggle-dropdown,
@@ -387,7 +388,7 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #f3b64c;
   font-size: 14px;
   padding: 40px 0;
   position: relative;
@@ -449,7 +450,7 @@ h6 {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background-color: var(--accent-color);
+  background-color: #dd1414;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -463,7 +464,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background-color: color-mix(in srgb, #2114dd, transparent 20%);
   color: var(--contrast-color);
 }
 
@@ -487,7 +488,7 @@ h6 {
 --------------------------------------------------------------*/
 .page-title {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #2730ff;
   padding: 25px 0;
   position: relative;
 }
@@ -551,7 +552,7 @@ section,
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--accent-color);
+  background: #142bdd;
   left: 0;
   bottom: 0;
 }
@@ -670,7 +671,7 @@ section,
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: var(--accent-color);
+  color: #dd1414;
   line-height: 0;
 }
 
@@ -741,7 +742,7 @@ section,
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: var(--accent-color);
+  background-color: #dd1414;
 }
 
 /*--------------------------------------------------------------
@@ -758,7 +759,7 @@ section,
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid var(--accent-color);
+  border-left: 2px solid #7214dd;
   position: relative;
 }
 
@@ -800,7 +801,7 @@ section,
   left: -9px;
   top: 0;
   background: var(--background-color);
-  border: 2px solid var(--accent-color);
+  border: 2px solid #141cdd;
 }
 
 /*--------------------------------------------------------------
